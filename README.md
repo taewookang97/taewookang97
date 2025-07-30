@@ -1,33 +1,82 @@
 <!-- 인식이 안되는글 컨트롤+/ (주석) -->
 
+<!-- https://www.markdownguide.org/cheat-sheet/ -->
+<!-- cmd + /, ctrl + / : 주석 -> 인식이 안되는 글 -->
+
+<!-- headline 또는 heading -->
 # 제목1
 ## 제목2
-### 제목3
-**굵게**
-_굵게_    
+### 제목3 
+<!-- 일반적으로 velog, notion 3까지 지원... -->
+#### 제목4
+##### 제목5
+###### 제목6
 
+<!-- bold 굵게 -->
+**굵게**
+__굵게__
+<!-- enter 1개는 무시된다 -->
+
+엔터
+엔터
+
+엔터엔터
+
+엔터엔터
+
+엔터  
+엔터
+<!-- 스페이스 2개가 있으면 줄바꿈 인정 -->
+
+<!-- italic 기울게 -->
 *기울게*
 _기울게_
+
 > 인용
+> > 인용
+> > > 인용
+> > > > 인용
+
 * 말머리표
-1. 숫자로표현
-2. 숫자로 이어서
-12. 3으로될거임
+* 말머리표
+    * 들여쓰기...
+        * 들여쓰기...
 
-ㅁㄴㅇ
-* 들여쓰기 
-<!-- 들여쓰기는 1부터 시작 -->
+1. 숫자로 표현
+2. 숫자를 이어서 하는데
+1. 맨 앞에 숫자에 이어서 진행합니다
+10. 커지든 작아지든
+    1. 새로운 숫자 
+    <!-- 들여쓰기의 경우에는 1로만 시작 가능 -->
+
+`한 줄 코드`
+
+여러줄 코드
+```
+import java.util.*;
+System.out.println("Hello World");
 
 
-[네이버](https://naver.com)
+<!-- 컬러셋 차이 -->
+import java.util.*;
+System.out.println("Hello World");
 
 
-[이미지](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.utoimage.com%2F%3Fm%3Dgoods.free%26mode%3Dview%26idx%3D22250682&psig=AOvVaw1JbhLNG0Og9Q5yWq_2QQ90&ust=1753946258145000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCICFjI-F5I4DFQAAAAAdAAAAABAE)
+<!-- 가로 구분선 -->
+---
 
+네이버
+구글
+[이름](주소)
 
-<mark>하이라이트
+!이미지
+![이미지 설명](주소)
 
-[ ] 체크박스  
+<!-- ==하이라이트== -->
+<mark>하이라이트</mark>
+
+취소선
+
 [ ] 체크박스
 [x] 체크박스
 
