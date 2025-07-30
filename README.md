@@ -1,5 +1,3 @@
-<!-- 인식이 안되는글 컨트롤+/ (주석) -->
-
 <!-- https://www.markdownguide.org/cheat-sheet/ -->
 <!-- cmd + /, ctrl + / : 주석 -> 인식이 안되는 글 -->
 
@@ -55,7 +53,7 @@ _기울게_
 ```
 import java.util.*;
 System.out.println("Hello World");
-
+```
 
 <!-- 컬러셋 차이 -->
 import java.util.*;
@@ -64,7 +62,7 @@ System.out.println("Hello World");
 
 <!-- 가로 구분선 -->
 ---
-
+```
 네이버
 구글
 [이름](주소)
